@@ -7,7 +7,7 @@ import com.azhon.appupdate.listener.OnDownloadListener;
  * 包名       com.azhon.appupdate.base
  * 文件名:    BaseHttpDownloadManager
  * 创建时间:  2018/1/27 on 19:25
- * 描述:     TODO 下载管理者
+ * 描述:     下载管理者
  *
  * @author 阿钟
  */

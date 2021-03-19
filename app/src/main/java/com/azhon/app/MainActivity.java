@@ -58,16 +58,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_1:
+                //自定义对话框
                 startUpdate1();
                 break;
             case R.id.btn_2:
                 startUpdate2();
                 break;
             case R.id.btn_3:
+                //内置对话框
                 startUpdate3();
                 break;
             case R.id.btn_4:
                 if (manager != null) {
+                    //取消
                     manager.cancel();
                 }
                 break;
@@ -138,7 +141,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         manager = DownloadManager.getInstance(this);
         manager.setApkName("ESFileExplorer.apk")
                 .setApkUrl(url)
-                .setSmallIcon(R.mipmap.ic_launcher)
+                .setSmallIcon(R.mipmap.logo)
                 .setShowNewerToast(true)
                 .setConfiguration(configuration)
                 .setApkVersionCode(2)

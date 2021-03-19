@@ -7,7 +7,7 @@ import android.support.v4.content.FileProvider;
  * 包名       com.azhon.appupdate.config
  * 文件名:    AppUpdateFileProvider
  * 创建时间:  2020/2/20 on 23:13
- * 描述:     TODO
+ * 描述:
  *
  * @author 阿钟
  */
