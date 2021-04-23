@@ -1,5 +1,7 @@
 ## [English Doc](https://github.com/azhon/AppUpdate/blob/master/README-EN.md)
 
+https://github.com/WVector/AppUpdate
+
 <p align="center"><img src="https://github.com/azhon/AppUpdate/blob/master/img/logo.png"></p>
 <p align="center">
   <img src="https://img.shields.io/badge/miniSdk-15%2B-blue.svg">
